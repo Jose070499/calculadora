@@ -80,10 +80,10 @@ main (int argc, char *argv[])
 		exit (1);
 	}
 	host = argv[1];
-	printf("Hola! Bienvenidos a la calculadora perrona\n");
-	printf("Ingrese el valor del parametro UNO: \n");
+	printf("Hala a todos esta es la calculadora de los mas locos\n");
+	printf("Ingrese el primer valor numerico: \n");
 	scanf("%d", &x);
-	printf("Ingrese el valor del parametro DOS: \n");
+	printf("Ingrese el segundo valor numerico: \n");
 	scanf("%d", &z);
 	calculador_pro_1 (host, x, z);
 exit (0);
